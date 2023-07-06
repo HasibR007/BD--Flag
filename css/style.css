@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1500px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+	}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+.green{
+	width: 600px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 24%;
+	right: 35%;
+}
+.yellow{
+	width: 180px;
+	height: 180px;
+	background: yellow;
+	border-radius: 100%;
+	position: absolute;
+	top:23%;
+	left:30%;
+}
+.fb{
+	width: 180px;
+	position: fixed;
+	top: 20%;
+	right: -125px;
+}
+.fb:hover{
+	right: -2px;
+	transition: 1.25s;
+}
+.in{
+	width: 180px;
+	position: fixed;
+	top: 35%;
+	right: -125px;
+}
+.in:hover{
+	right: -2px;
+	transition: 1.25s;
+}
+.twitter{
+	width: 180px;
+	position: fixed;
+	top: 50%;
+	right: -125px;
+}
+.twitter:hover{
+ 	right: -2px;
+	transition: 1.25s;
+}
+.social-media{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 10px;
+}
+.social-media li{
+list-style: none;
+display: inline-block;
+}
+.social-media li a{
+display: block;
+width: 90px;
+line-height: 90px;
+font-size: 35px;
+border-radius: 100%;
+margin: 0px 15px;
+height: 90px;
+background: black;
+color: #fff;
+border: 1px solid #000;
+}
+.social-media li a:hover{
+background: navy;
+color: #fff;
+border: 1px solid #000;
+transition: 1s;
+}
